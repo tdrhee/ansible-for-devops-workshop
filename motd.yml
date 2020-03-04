@@ -1,0 +1,8 @@
+---
+- name: Deploy site web infrastructure
+  hosts: all
+  become: yes
+
+  roles:
+    - jtyr.motd
+
